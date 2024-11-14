@@ -26,7 +26,7 @@ const url = data.url
 const ytdl = await fetchJson(`${apilink}/download/ytmp3?url=${data.url}`)
     
 let message = `‎‎
-╭═══🎶❃ *SILENT-SOBX-MD-MUSIC-DOWNLOADER* ❃🎶═══⊷
+╭═══🎶❃ *MANNO-MD-MUSIC-DOWNLOADER* ❃🎶═══⊷
 ┃❃╭──────────────
 ┃❃│🎵 ‎TITLE: ${data.title}
 ┃❃│ ⏱ DURATION: ${data.timestamp}
@@ -36,9 +36,7 @@ let message = `‎‎
 ┃❃│📎 URL: ${data.url}
 ┃❃╰───────────────
 ╰═════════════════⊷
-> © ᴄʀᴇᴀᴛᴇᴅ ʙʏ sɪʟᴇɴᴛʟᴏᴠᴇʀ⁴³² 👩‍💻
-
-> ↺ |◁   II   ▷|   ♡
+> © CREATED BY MANNO-MD 👩‍💻
 `
   
 await conn.sendMessage(from, { image: { url : data.thumbnail }, caption: message }, { quoted : mek })
@@ -70,7 +68,7 @@ let search = await yts(q)
 let link = search.all[0].url
 let desc = `
 *╭──────────●●►*
-_*♻️ SILENT-SOBX-MD VIDEO DOWNLOADER ♻️*_
+_*♻️MANNO-MD VIDEO DOWNLOADER ♻️*_
 *╰──────────●●►*
 
  *♻️ TITLE:* ${search.all[0].title}
@@ -85,9 +83,7 @@ _*♻️ SILENT-SOBX-MD VIDEO DOWNLOADER ♻️*_
 
  *♻️ URL:* ${search.all[0].url}
 
-> © ᴄʀᴇᴀᴛᴇᴅ ʙʏ sɪʟᴇɴᴛʟᴏᴠᴇʀ⁴³² 👩‍💻
-
-> ↺ |◁   II   ▷|   ♡
+> CREATED BY MANNO-MD 👩‍💻
 `
 
 await conn.sendMessage(from,{image:{url: search.all[0].thumbnail},caption:desc},{quoted:mek})
