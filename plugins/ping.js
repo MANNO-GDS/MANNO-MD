@@ -40,7 +40,11 @@ const startTime = Date.now()
         const message = await conn.sendMessage(from, { text: '*_🪄Pinging..._*' })
         const endTime = Date.now()
         const ping = endTime - startTime
-        await conn.sendMessage(from, { text: `*♻️ Speed... : ${ping}ms*`}, { quoted: message })
+        await conn.sendMessage(from, { text: `*⸙• 「「⸙」‎🌸🖥️*                 
+             
+ ${ping}ms 𝙈𝙎
+                 🔐⚠️  
+ *💌 𝙏𝙃𝙀-𝙈𝘼𝙉𝙉𝙊-𝙈𝘿 💌*`}, { quoted: message })
     } catch (e) {
         console.log(e)
         reply(`${e}`)
