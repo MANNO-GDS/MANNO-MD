@@ -11,14 +11,16 @@ async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender
 try{
 let madeMenu = `❁ ════ ❃•⇆•❃ ════ ❁
 
-*👋 HELLO ${pushname}*\n\n *I AM SILENT LOVER 432*\n\n *I AM 19 YEARS OLD BOY 🔞*\n\n *I AM FROM PERSNOL HAI😁🙈*\n\n *I AM SIMPLE WHATSAPP BOT DEVELOPER👨‍💻*\n\n\n *THANK YOU.😊*
+*👋 HELLO ${pushname}*\n\n *I AM ARMAN MANNO-DEVOLPER\n\n *I AM 19 YEARS OLD BOY 🔞*\n\n *I AM FROM PERSNOL HAI😁🙈*\n\n *I AM SIMPLE WHATSAPP BOT DEVELOPER👨‍💻*\n\n\n *THANK YOU.😊*
 
-❁ ════ ❃•⇆•❃ ════ ❁
 
-> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ sɪʟᴇɴᴛ_ʟᴏᴠᴇʀ⁴³²*
-
-╰━❁ ═══ ❃•⇆•❃ ═══ ❁━╯
+*┌─〈➥⃟⟣𝐒ᴀͥɪᴍ 𝐀ʟɪ 𝐊ʜᷧᴀͫɴ⟢⃟❑𓃮〉─◆*
+*┴*
+*│▸ 𝙋𝙊𝙒𝙀𝙍𝘿 𝘽𝙔 𝙈𝘼𝙉𝙉𝙊-𝙈𝘿*
+*┬*
+*└────────────···▸*
 `
+
 
 await conn.sendMessage(from,{image:{url:config.ALIVE_IMG},caption:madeMenu},{quoted:mek})
 
