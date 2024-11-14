@@ -5,7 +5,7 @@ const { cmd, commands } = require('../command');
 
 cmd({
   pattern: "updatecmd",
-  react: "🧞",
+  react: "🧾",
   desc: "Update commands.",
   category: "owner",
   filename: __filename
@@ -48,7 +48,7 @@ async (conn, mek, m, {
       }
     }
     
-    reply("Commands updated successfully.");
+    reply("𝘾𝙊𝙈𝙈𝘼𝙉𝘿 𝙐𝙋𝘿𝘼𝙏𝙀𝘿 𝙎𝙐𝘾𝘾𝙀𝙎𝙎𝙁𝙐𝙇𝙇𝙔....");
   } catch (e) {
     console.log(e);
     reply(`Error updating commands: ${e.message}`);
