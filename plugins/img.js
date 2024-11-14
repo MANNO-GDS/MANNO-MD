@@ -43,7 +43,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 
  *Enjoy these images! 👾*
 
-> 🌈*SILENT-SOBX-MD BOT PLUGINS*🏝️`
+> 🌈*𝙈𝘼𝙉𝙉𝙊-𝙈𝘿 𝘽𝙊𝙏 𝙋𝙇𝙐𝙂𝙄𝙉𝙎...*🏝️`
 }, { quoted: mek });
 }
 
