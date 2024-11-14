@@ -1,7 +1,7 @@
 {
-  "name": "SILENT-SOBX-MD",
+  "name": "MANNO-MD",
   "description": "ᴊᴀᴠᴀsᴄʀɪᴘᴛ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ sɪʟᴇɴᴛʟᴏᴠᴇʀ⁴³²",
-  "logo": "https://telegra.ph/file/2a06381b260c3f096a612.jpg",
+  "logo": "https://i.ibb.co/7NJbnB3/lo75s-RTo4294.jpg",
   "keywords": ["bot"],
   "success_url": "/",
 
@@ -16,7 +16,7 @@
     "ALIVE_IMG": {
       "description": "paste your image url if you don't have you can use this public url.",
       "required": true,
-      "value": "https://files.catbox.moe/h5ddpq.jpg"
+      "value": "https://i.ibb.co/7NJbnB3/lo75s-RTo4294.jpg"
     }, 
     
     "ALIVE_MSG": {
@@ -40,13 +40,13 @@
     "AUTO_VOICE": {
       "description": "Make it true if you want bot auto voice.",
       "required": true,
-      "value": "true"
+      "value": "false"
     }, 
 
     "AUTO_REPLY": {
       "description": "Make it true if you want bot auto reply.",
       "required": true,
-      "value": "true"
+      "value": "false"
     }, 
 
     "AUTO_STICKER": {
@@ -76,7 +76,7 @@
     "FAKE_RECORDING": {
       "description": "Make it true if you want bot fake record.",
       "required": true,
-      "value": "true"
+      "value": "false"
     },
 
     "AUTO_REACT": {
@@ -95,7 +95,7 @@
     "BOT_NAME": {
       "description": "write hear your name.",
       "required": true,
-      "value": "✦sɪʟᴇɴᴛ-sᴏʙx-ᴍᴅ✦"
+      "value": "『💌 𝙏𝙃𝙀-𝙈𝘼𝙉𝙉𝙊-𝙈𝘿 💌』"
     }
 
 },
