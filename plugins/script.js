@@ -11,18 +11,16 @@ cmd({
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
 let repo =`
-*╭──────────────●●►*
-> *BOT OWNER:*
-*|* *SILENTLOVER432*
+⊱✫💌𝙈𝘼𝙉𝙉𝙊-𝘽𝙊𝙏✫⊱╮
+│✫ - *📂𝙍𝙀𝙋𝙊𝙎𝙄𝙏𝙊𝙍𝙔-𝙉𝘼𝙈𝙀:* ${repoData.name}
+│✫ - *📃𝘿𝙀𝙎𝘾𝙍𝙀𝙋𝙏𝙄𝙊𝙉:* ${repoData.description}
+│✫ - *👤𝙊𝙒𝙉𝙀𝙍:* ${repoData.owner.login}
+│✫ - *⭐𝙎𝙏𝘼𝙍𝙎:* ${repoData.stargazers_count}
+│✫ - *💌𝙁𝙊𝙍𝙆𝙎:* ${repoData.forks_count}
+│✫ - *🌐 𝙐𝙍𝙇:* ${repoData.html_url}
+╰━━━━━━━━━━━━━━━━━╯
 
-> *SILENT-SOBX-MD REPO:*
-*|* *https://github.com/SILENTLOVER40/SILENT-SOBX-MD*
-
-> *SUPPORT GROUP:*
-*|* *https://whatsapp.com/channel/0029VaHO5B0G3R3cWkZN970s*
-*╰──────────────●●►*
-
-> *POWERED BY SILENTLOVER432*
+> *POWERED BY MANNO-MD*
 `
 await conn.sendMessage(from, { text: repo ,
   contextInfo: {
