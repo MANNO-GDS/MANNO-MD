@@ -3,7 +3,7 @@
 
                          cmd({
                              pattern: "define",
-                             desc: "📚 Get the definition of a word",
+                             desc: "📚 𝙂𝙀𝙏 𝙏𝙃𝙀 𝘿𝙀𝙁𝙄𝙉𝙏𝙄𝙊𝙉 𝙒𝙊𝙍𝘿...",
                              react: "🔍",
                              category: "Auther",
                              filename: __filename
@@ -23,12 +23,12 @@
                                  const synonyms = definitionData.meanings[0].definitions[0].synonyms.join(', ') || 'No synonyms available';
 
 const wordInfo = `
-📚 *Word*: ${definitionData.word}
-🔍 *Definition*: ${definition}
-📝 *Example*: ${example}
-🔗 *Synonyms*: ${synonyms}
+📚 *𝙒𝙊𝙍𝘿𝙎*: ${definitionData.word}
+🔍 *𝘿𝙀𝙁𝙄𝙉𝙏𝙄𝙊𝙉*: ${definition}
+📝 *𝙀𝙓𝘼𝙈𝙋𝙇𝙀*: ${example}
+🔗 *𝙎𝙔𝙉𝙊𝙉𝙔𝙈𝙎*: ${synonyms}
 
-*MADE WITH ♥ SILENT-SOBX-MD*`;
+*𝙈𝘼𝘿𝙀 𝙒𝙄𝙏𝙃 ♥ 𝙈𝘼𝙉𝙉𝙊-𝙈𝘿 `;
 
                                  return reply(wordInfo);
                              } catch (e) {
